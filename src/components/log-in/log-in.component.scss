@@ -1,0 +1,13 @@
+::ng-deep form{
+  width: 600px;
+  background-color: red;
+}
+
+::ng-deep .cds--label{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+::ng-deep .cds--checkbox-label-text{
+  margin: 1px 0px 2px 3px;
+}

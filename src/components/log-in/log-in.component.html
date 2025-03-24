@@ -1,0 +1,22 @@
+<!-- Container chính của form Login -->
+<div class="login_container">
+  <h2>LogIn</h2>
+  <p class="creat-account">Don't have an Account ? <a href="#">Creat an IBMid</a></p>
+  <!-- Form đăng nhập -->
+  <form>
+    <!-- Input email -->
+    <cds-text-label>
+      {{ label1 }}
+      <a href="https://www.ibm.com/account/us-en/forgot-id">{{ label2 }}</a>
+      <!-- <div class="forgot-id">
+      </div> -->
+      <input type="text" id="ibmid" cdsText placeholder="username@IBM.com" [theme]="theme" [(ngModel)]="ibmid"
+        name="ibmid" required email #ibmidInput="ngModel" />
+    </cds-text-label>
+    <cds-checkbox>
+      Remember ID
+    </cds-checkbox>
+    <div></div>
+    <div></div>
+  </form>
+</div>
